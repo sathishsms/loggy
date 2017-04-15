@@ -1,0 +1,20 @@
+#! /usr/bin/python
+OCPMTestbench                       =   {}
+#===============================================================================
+# File Name           : server_rack.def
+# Date                : 11-05-2014 v0.1
+# Input Files         : None
+# Author              : satheesh <sathishsms@gmail.com>
+# Description         : This file gets the user input like CMP IP etc
+#                       file is of python "dicts" format
+#===============================================================================
+
+OCPMTestbench['CMP_IP']             =   '10.240.182.137'
+OCPMTestbench['CMP_UserName']       =   'admusr'
+OCPMTestbench['CMP_Pswd']           =   'Dukw1@m?'
+OCPMTestbench['logServerIP']        =   '10.250.53.13'
+OCPMTestbench['logServerUserName']  =   'admusr'
+OCPMTestbench['logServerPswd']      =   'Meat0s'
+#pls make sure this folder exists loggy doesn't have intellegince to create 1 if not yet
+#OCPMTestbench['logServerPath']      =   '/root/logs/Blr-QA/R12.0/satheesh'
+OCPMTestbench['logServerPath']      =   '/root/logs/Blr-QA/R11.5/Gx-Lite/loggy/'
